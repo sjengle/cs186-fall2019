@@ -1,0 +1,186 @@
+# reusable icon references
+icons:
+  website: &icon_website
+    label: Website
+    class: far fa-link
+  video: &icon_video
+    label: Video
+    class: far fa-video
+  presentation: &icon_presentation
+    label: Presentation
+    class: far fa-presentation
+  participation: &icon_participation
+    label: Participation
+    class: far fa-users-class
+  survey: &icon_survey
+    label: Survey
+    class: far fa-clipboard-list-check
+  date: &icon_date
+    label: Date
+    class: far fa-calendar-alt
+
+# icons that don't need a legend
+icons_special:
+  warning: &icon_warning
+    label: Warning
+    class: fas fa-exclamation-triangle
+  pending: &icon_pending
+    label: Pending
+    class: far fa-question-square
+  canceled: &icon_canceled
+    label: Canceled
+    class: far fa-calendar-times
+
+weeks:
+- week: 1
+  columns:
+    - label: 'Dates and Deadlines'
+      class: 'is-offset-two-thirds'
+      items:
+        - icon: *icon_date
+          date: 2019-08-20
+          text: 'Fall semester begins'
+          type: 'has-text-grey'
+
+- week: 2
+  columns:
+    - label: '08/26 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - icon: *icon_date
+          text: 'First day of class'
+          type: 'has-text-grey'
+
+        - bump: true
+          text: Pending
+
+- week: 3
+  columns:
+    - label: '09/02 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - icon: *icon_canceled
+          text: 'Labor Day (no class)'
+          type: 'has-text-grey'
+    - label: 'Dates and Deadlines'
+      items:
+        - icon: *icon_date
+          date: 2019-09-06
+          text: 'Drop deadline'
+          link: 'https://www.usfca.edu/catalog/regulations'
+
+- week: 4
+  columns:
+    - label: '09/09 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 5
+  columns:
+    - label: '09/16 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 6
+  columns:
+    - label: '09/23 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 7
+  columns:
+    - label: '09/30 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 8
+  columns:
+    - label: '10/07 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 9
+  columns:
+    - label: '10/14 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - icon: *icon_canceled
+          text: 'Fall break (no class)'
+          type: 'has-text-grey'
+
+- week: 10
+  columns:
+    - label: '10/21 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 11
+  columns:
+    - label: '10/28 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+    - label: 'Dates and Deadlines'
+      items:
+        - icon: *icon_date
+          date: 2019-11-01
+          text: 'Withdraw deadline'
+
+- week: 12
+  columns:
+    - label: '11/04 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 13
+  columns:
+    - label: '11/11 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 14
+  columns:
+    - label: '11/18 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 15
+  columns:
+    - label: '11/25 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+- week: 16
+  columns:
+    - label: '12/02 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
+
+    - label: 'Dates and Deadlines'
+      items:
+        - icon: *icon_date
+          date: 2019-12-05
+          text: CS Night
