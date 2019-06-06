@@ -185,39 +185,229 @@ This section discusses how the learning outcomes for this course will be assesse
 
 {% include anchor.html h="h4" text="Requirements" %}
 
-The course requirements are broken into the following categories.
+The course requirements are broken into several categories. As long as all categories remain above a 60%, the final grade is determined by the following breakdown:
 
-{% include anchor.html h="h6" text="Class Attendance" class="has-text-grey heading" %}
+<table class="table is-hoverable" style="width: auto;">
+  <thead>
+    <tr>
+      <th>Percent</th>
+      <th>Category</th>
+    </tr>
+  </thead>
 
-Attendance is mandatory and will be taken 10 minutes after the start of each class.
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+        <p>25%</p>
+      </td>
 
-{% include anchor.html h="h6" text="Participation Assignments" class="has-text-grey heading" %}
+      <td>
+        <p>
+          <strong>Class Attendance</strong>
+          <br/>
 
-Students will be assigned weekly pass/fail participation assignments throughout the semester. Example assignments include providing presentation feedback, posting questions for an invited speaker, and occasionally responding to surveys.
+          Students must attend class. Students must be present for at least 90% of the class time to earn attendance credit.
+        </p>
+      </td>
+    </tr>
 
-{% include anchor.html h="h6" text="Class Presentation" class="has-text-grey heading" %}
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+        <p>25%</p>
+      </td>
 
-Students must complete a 10 minute in-class presentation on a significant figure, organization, or event in Computer Science. This category includes several pass/fail assignments: submitting slides ahead of time, visiting the Speaking Center in preparation for the presentation, and delivering the presentation in class.
+      <td>
+        <p>
+          <strong>Participation Assignments</strong>
+          <br/>
 
-{% include anchor.html h="h6" text="Community Engagement" class="has-text-grey heading" %}
+          Students must complete weekly pass/fail participation assignments throughout the semester. Example assignments include providing presentation feedback, posting questions for an invited speaker, and occasionally responding to surveys.
+        </p>
+      </td>
+    </tr>
 
-Students must attend the following mandatory community engagement activities outside of class:
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+        <p>25%</p>
+      </td>
 
-  - Students must attend 1 **on-campus CS department event**. Example events include student group meetings, hackathons, guest speakers (from other courses), and social events sponsored by the department.  
+      <td>
+        <p>
+          <strong>Class Presentation</strong>
+          <br/>
 
-  - Students must attend 1 **on-campus event** organized by *any* organization affiliated with USF. Example events include CS department events, Career Services Center events, speaker series hosted by other departments, and social events hosted by the USF or College of Arts and Sciences.  
+          Students must complete a 10 minute in-class presentation on a significant figure, organization, or event in Computer Science. This category includes several pass/fail assignments: submitting slides ahead of time, visiting the Speaking Center in preparation for the presentation, and delivering the presentation in class.
+        </p>
+      </td>
+    </tr>
 
-  - Students must attend 1 **off-campus technical event** in the local San Francisco Bay area. Events include local meetups, academic or industry conferences, hackathons, and Tech Treks to local tech companies organized by the Career Services Center.  
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+        <p>25%</p>
+      </td>
 
-  - Students must attend **CS Night** in lieu of a final exam at the end of the semester. CS Night may *not* be used for the other on-campus event requirements.
+      <td>
+        <p>
+          <strong>Community Engagement</strong>
+          <br/>
 
-Students are *highly* encouraged to attend these events in groups of 3 to 5 students. Groups may be arranged on Piazza.
+          Students must attend several mandatory community engagement activities <em>outside</em> of class. The breakdown of these activities is as follows:
+        </p>
 
-Students may discuss alternative community engagement activities with the instructor if attendance at these events causes undue hardship. These arrangements must be made before Fall Break. Late requests will be denied unless there is an exceptional circumstance.
+        <table class="table" style="width: auto; margin-top: -1em;">
+        <tbody>
+          <tr>
+            <td class="has-text-right">10%</td>
+            <td>Students must attend 1 <strong>on-campus</strong> event offered by the CS department and 1 <strong>on-campus</strong> event offered by <em>any</em> organization affiliated with USF. Example events include CS department events, Career Services Center events, speaker series hosted by other departments, and social events hosted by the USF or College of Arts and Sciences.</td>
+          </tr>
 
-{% include anchor.html h="h4" text="Grading" %}
+          <tr>
+            <td class="has-text-right">10%</td>
+            <td>Students must attend 1 <strong>off-campus</strong> technical event in the local San Francisco Bay area. Events include local meetups, academic or industry conferences, hackathons, and Tech Treks to local tech companies organized by the Career Services Center. These events must be pre-approved by the instructor.</td>
+          </tr>
 
-Pending
+          <tr>
+            <td class="has-text-right">5%</td>
+            <td>Students must attend <strong>CS Night</strong> in lieu of a final exam at the end of the semester. CS Night may not be used for the other on-campus event requirements.</td>
+          </tr>
+        </tbody>
+        </table>
+
+        <p>Students are highly encouraged to attend these events in groups of 3 to 5 students. Groups may be arranged on Piazza.</p>
+
+        <article class="message">
+          <div class="message-body is-size-7">
+            <i class="fas fa-info-circle"></i>&nbsp;
+            Students may discuss alternative community engagement activities with the instructor if attendance at these events causes undue hardship. These arrangements must be made before Fall Break. Late requests will be denied unless there is an exceptional circumstance.
+          </div>
+        </article>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Students must earn above a 60% in each category to pass the course. <strong class="has-text-danger">If one or more categories fall below 60%, then an "F" letter grade is automatically assigned regardless of the percentage score.</strong>
+
+{% include anchor.html h="h4" text="Grading Scale" %}
+
+<p>As long as all grade categories remain above a 60%, the final grade is determined by the following letter grade and GPA scale:</p>
+
+<table class="table is-hoverable" style="width: auto;">
+  <thead>
+    <tr>
+      <th colspan="3" class="has-text-centered">Letter</th>
+      <th>GPA</th>
+    </tr>
+  </thead>
+
+  <tbody>    
+    <tr>
+      <td class="has-text-right">97% ≤</td>
+      <td>A+</td>
+      <td>&lt; 100%</td>
+      <td class="has-text-centered">4.0</td>
+
+    </tr>
+
+    <tr>
+      <td class="has-text-right">94% ≤</td>
+      <td>A</td>
+      <td>&lt; 97%</td>
+      <td class="has-text-centered">4.0</td>
+
+    </tr>
+
+    <tr>
+      <td class="has-text-right">90% ≤</td>
+      <td>A–</td>
+      <td>&lt; 94%</td>
+      <td class="has-text-centered">3.7</td>
+
+    </tr>
+
+    <tr>
+      <td class="has-text-right">87% ≤</td>
+      <td>B+</td>
+      <td>&lt; 90%</td>
+      <td class="has-text-centered">3.3</td>
+
+    </tr>
+
+    <tr>
+      <td class="has-text-right">84% ≤</td>
+      <td>B</td>
+      <td>&lt; 87%</td>
+      <td class="has-text-centered">3.0</td>
+
+    </tr>
+
+    <tr>
+      <td class="has-text-right">80% ≤</td>
+      <td>B–</td>
+      <td>&lt; 84%</td>
+      <td class="has-text-centered">2.7</td>
+
+    </tr>
+
+    <tr>
+      <td class="has-text-right">77% ≤</td>
+      <td>C+</td>
+      <td>&lt; 80%</td>
+      <td class="has-text-centered">2.3</td>
+
+    </tr>
+
+    <tr>
+      <td class="has-text-right">74% ≤</td>
+      <td>C</td>
+      <td>&lt; 77%</td>
+      <td class="has-text-centered">2.0</td>
+
+    </tr>
+
+    <tr class="has-text-danger">
+      <td class="has-text-right">70% ≤</td>
+      <td>C–</td>
+      <td>&lt; 74%</td>
+      <td class="has-text-centered">1.7</td>
+
+    </tr>
+
+    <tr class="has-text-danger">
+      <td class="has-text-right">67% ≤</td>
+      <td>D+</td>
+      <td>&lt; 70%</td>
+      <td class="has-text-centered">1.3</td>
+
+    </tr>
+
+    <tr class="has-text-danger">
+      <td class="has-text-right">64% ≤</td>
+      <td>D</td>
+      <td>&lt; 67%</td>
+      <td class="has-text-centered">1.0</td>
+
+    </tr>
+
+    <tr class="has-text-danger">
+      <td class="has-text-right">60% ≤</td>
+      <td>D–</td>
+      <td>&lt; 64%</td>
+      <td class="has-text-centered">0.7</td>
+
+    </tr>
+
+    <tr class="has-text-danger">
+      <td class="has-text-right">0% ≤</td>
+      <td>F</td>
+      <td>&lt; 60%</td>
+      <td class="has-text-centered">0.0</td>
+
+    </tr>    
+  </tbody>
+</table>
+
+<p>Non-satisfactory grades are <span class="has-text-danger">highlighted in red</span>. See the <a href="https://www.usfca.edu/catalog/regulations/student">Undergraduate Regulations</a> for more about letter grades and GPA.</p>
 
 {% include anchor.html h="h2" text="Course Policies" %}
 
@@ -239,7 +429,7 @@ Late work is not accepted. Instead, students may request makeup opportunities fo
 
 {% include anchor.html h="h4" text="Attendance" %}
 
-Students must attend the weekly seminars and the mandatory community engagement activities outside of class. Attendance is taken 10 minutes after the start of class.
+Students must attend the weekly seminars and the mandatory community engagement activities outside of class.
 
 Misrepresenting attendance at an outside of class event is a violation of the University's Honor Code. See below for the consequences of honor code violations.
 
