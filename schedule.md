@@ -112,3 +112,19 @@ The following is the current weekly schedule. This schedule is subject to change
   </span>
   {%- endfor %}
 </div>
+
+<div class="notification is-usf-gold">
+  <button class="delete"></button>
+  Interested in being a <a href="speaking.html">guest speaker</a> for this course? Please email Sophie at <a href="mailto:sjengle@cs.usfca.edu">sjengle@cs.usfca.edu</a> for details!
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    $notification = $delete.parentNode;
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+  });
+});
+</script>
