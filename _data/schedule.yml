@@ -141,11 +141,20 @@ weeks:
 
 - week: 12
   columns:
-    - label: '11/04 Lecture'
-      class: 'is-offset-one-third'
+    - label: 'Assignments'
       items:
-        - text: 'Pending'
-          type: 'has-text-grey'
+        - text: 'Lyft questions due'
+          date: 2019-11-03
+          icon: *icon_survey
+
+    - label: '11/04 FIELD TRIP'
+      # class: 'is-offset-one-third'
+      items:
+        - text: 'Visit to Lyft'
+          type: 'has-text-weight-bold has-text-link'
+          icon:
+            class: 'fab fa-lyft has-text-weight-normal'
+          link: 'https://www.lyft.com/careers'
 
 - week: 13
   columns:
