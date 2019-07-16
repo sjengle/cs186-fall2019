@@ -7,9 +7,9 @@ title: Welcome
 
 Classes are **Mondays** from **4:45pm&ndash;6:20pm** in LS G12, and are often open to non-enrolled students. See the [Schedule](schedule.html) and [Syllabus](syllabus.html) for more information.
 
-<div class="notification is-usf-gold">
+<div class="notification is-usf-green">
   <button class="delete"></button>
-  We are now enrolling students in this course! If you are an incoming first-year CS major and are interested, please email Sophie at <a href="mailto:sjengle@cs.usfca.edu">sjengle@cs.usfca.edu</a>.
+  The course is full but there is a waiting list. If you are an incoming first-year CS major and are interested in joining the waiting list, please email Sophie at <a href="mailto:sjengle@cs.usfca.edu">sjengle@cs.usfca.edu</a>.
 </div>
 
 <script>
