@@ -169,7 +169,7 @@ weeks:
     - label: '11/11 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
+        - text: 'Guest Speaker'
           type: 'has-text-grey'
 
 - week: 14
