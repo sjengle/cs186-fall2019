@@ -30,6 +30,9 @@ icons_special:
   canceled: &icon_canceled
     label: Canceled
     class: far fa-calendar-times
+  travel: &icon_travel
+    label: Travel
+    class: far fa-plane-departure
 
 weeks:
 - week: 1
@@ -82,8 +85,8 @@ weeks:
         - text: 'Linkedin Workshop'
           icon: *icon_participation
 
-        - text: 'Github Workshop'
-          icon: *icon_participation
+        # - text: 'Github Workshop'
+        #   icon: *icon_participation
 
 - week: 5
   columns:
@@ -128,11 +131,16 @@ weeks:
 
 - week: 10
   columns:
+
     - label: '10/21 Lecture'
       class: 'is-offset-one-third'
       items:
         - text: 'Pending'
           type: 'has-text-grey'
+
+        - bump: true
+          text: 'Sophie @ IEEEVIS'
+          type: 'has-text-success'
 
 - week: 11
   columns:
