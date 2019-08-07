@@ -153,7 +153,7 @@ By the end of this course, students will be able to:
 
   - Describe on-campus support provided by the CS Department and University
   - Engage with technical communities on and off campus
-  - Improve their in-class oral communication skills
+  - Improve in-class oral communication skills
 
 This course counts towards general electives. It does not count towards the CS major or minor.
 
@@ -165,13 +165,13 @@ The majority of class time is dedicated to guest lectures. Some topics or activi
 
   - Guest lectures or panels from faculty
   - Guest lectures or panels from alumni
-  - Guest lectures or panels from student groups, such as Women in Tech, Diversineers, or ACM
-  - Guest lectures or panels from department groups, such as CS Tutoring Center, or CS Support
+  - Guest lectures or panels from student groups, such as [Women in Tech](https://www.facebook.com/usfcawit/), Diversineers, or [ACM](https://usfcaacm.github.io/)
+  - Guest lectures or panels from department groups, such as [CS Tutoring Center](http://tutoringcenter.cs.usfca.edu/), or [CS Support](https://myusf.usfca.edu/arts-sciences/computer-science/technical-resources)
 
 {% include anchor.html h="h6" class="has-text-grey heading" text="University Community" %}
 
-  - Guest lectures from the Career Services Center
-  - Guest lectures from other campus organizations, such as the Learning Center, CAPS, or SDS
+  - Guest lectures from the [Career Services Center](https://myusf.usfca.edu/career-services)
+  - Guest lectures from other campus organizations, such as the [LWSC](https://myusf.usfca.edu/lwsc), [CASA](https://myusf.usfca.edu/casa), [HPS](https://myusf.usfca.edu/hps), and [CAPS](https://myusf.usfca.edu/caps).
 
 {% include anchor.html h="h6" class="has-text-grey heading" text="Local Community" %}
 
