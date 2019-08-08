@@ -42,7 +42,7 @@ weeks:
       items:
         - icon: *icon_date
           date: 2019-08-20
-          text: 'Fall semester begins'
+          text: 'Fall Semester Begins'
           type: 'has-text-grey'
 
 - week: 2
@@ -51,7 +51,7 @@ weeks:
       class: 'is-offset-one-third'
       items:
         - icon: *icon_date
-          text: 'First day of class'
+          text: 'First Day of Class'
           type: 'has-text-grey'
 
         - bump: true
@@ -63,27 +63,28 @@ weeks:
       class: 'is-offset-one-third'
       items:
         - icon: *icon_canceled
-          text: 'Labor Day (no class)'
+          text: 'Labor Day (No Class)'
           type: 'has-text-grey'
     - label: 'Dates and Deadlines'
       items:
         - icon: *icon_date
           date: 2019-09-06
-          text: 'Drop deadline'
+          text: 'Drop Deadline'
           link: 'https://www.usfca.edu/catalog/regulations'
 
 - week: 4
   columns:
     - label: 'Assignments'
       items:
-        - text: 'Photographs due'
+        - text: 'Photographs Due'
           date: 2019-09-08
           icon: *icon_survey
 
     - label: '09/09 Lecture'
       items:
-        - text: 'Linkedin Workshop'
+        - text: 'Linkedin Workshop (Career Services)'
           icon: *icon_participation
+          link: 'https://myusf.usfca.edu/career-services/get-linkedin'
 
         # - text: 'Github Workshop'
         #   icon: *icon_participation
@@ -126,7 +127,7 @@ weeks:
       class: 'is-offset-one-third'
       items:
         - icon: *icon_canceled
-          text: 'Fall break (no class)'
+          text: 'Fall Break (No Class)'
           type: 'has-text-grey'
 
 - week: 10
@@ -141,6 +142,7 @@ weeks:
         - bump: true
           text: 'Sophie @ IEEEVIS'
           type: 'has-text-success'
+          icon: *icon_travel
 
 - week: 11
   columns:
@@ -149,17 +151,18 @@ weeks:
       items:
         - text: 'Pending'
           type: 'has-text-grey'
+          
     - label: 'Dates and Deadlines'
       items:
         - icon: *icon_date
           date: 2019-11-01
-          text: 'Withdraw deadline'
+          text: 'Withdraw Deadline'
 
 - week: 12
   columns:
     - label: 'Assignments'
       items:
-        - text: 'Lyft questions due'
+        - text: 'Lyft Questions Due'
           date: 2019-11-03
           icon: *icon_survey
 
@@ -206,6 +209,27 @@ weeks:
 
     - label: 'Dates and Deadlines'
       items:
-        - icon: *icon_date
+        - icon: *icon_participation
+          date: 2019-12-04
+          text: 'On-Campus Event (CS) Due'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861079'
+        - icon: *icon_participation
+          date: 2019-12-04
+          text: 'On-Campus Event (Any) Due'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861082'
+
+        - icon: *icon_participation
+          date: 2019-12-04
+          text: 'Off-Campus Event Due'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861083'
+
+        - icon: *icon_participation
+          date: 2019-12-04
+          text: 'Extra Credit Event Due'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861086'
+
+        - bump: true
+          icon: *icon_date
           date: 2019-12-05
           text: CS Night
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861084'
