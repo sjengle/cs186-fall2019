@@ -22,8 +22,8 @@ ul.icons > li > i {
   line-height: inherit;
 }
 
-li.bump {
-  margin-top: 1ex;
+.content li.bump {
+  margin-top: 0.8rem;
 }
 
 strong {
@@ -73,7 +73,7 @@ The following is the current weekly schedule. This schedule is subject to change
         </div>
         <ul class="icons">
           {%- for item in column.items %}
-          <li class="{{ item.type }}">
+          <li class="{{ item.type }} {% if item.bump %}bump{% endif %}">
             {%- if item.icon %}
               <i class="{{ item.icon.class }}"></i>
             {%- else %}
