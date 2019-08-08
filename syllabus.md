@@ -236,7 +236,7 @@ The course requirements are broken into several categories. As long as all categ
           <strong>Class Presentation</strong>
           <br/>
 
-          Students must complete a 10 minute in-class presentation on a significant figure, organization, or event in Computer Science. This category includes several pass/fail assignments: submitting slides ahead of time, visiting the Speaking Center in preparation for the presentation, and delivering the presentation in class.
+          Students must complete a 10 minute in-class presentation on a significant figure, organization, or event in Computer Science. This category includes several pass/fail assignments: selecting a presentation topic, submitting slides (or other presentation materials) ahead of time, <em>optionally</em> visiting the Speaking Center in preparation for the presentation, and delivering the presentation in class.
         </p>
       </td>
     </tr>
