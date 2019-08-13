@@ -94,7 +94,7 @@ weeks:
     - label: '09/16 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
+        - text: 'Github Workshop (Tentative)'
           type: 'has-text-grey'
 
 - week: 6
@@ -102,7 +102,7 @@ weeks:
     - label: '09/23 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
+        - text: 'Speaking Center Workshop (Tentative)'
           type: 'has-text-grey'
 
 - week: 7
@@ -136,7 +136,7 @@ weeks:
     - label: '10/21 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
+        - text: 'HPS Workshop (Tentative)'
           type: 'has-text-grey'
 
         - bump: true
@@ -151,7 +151,7 @@ weeks:
       items:
         - text: 'Pending'
           type: 'has-text-grey'
-          
+
     - label: 'Dates and Deadlines'
       items:
         - icon: *icon_date
