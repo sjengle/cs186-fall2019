@@ -413,6 +413,14 @@ Students must earn above a 60% in each category to pass the course. <strong clas
 
 This section includes miscellaneous policies specific to this course. These policies are in addition to the standard USF policies included later.
 
+{% include anchor.html h="h4" text="Evaluation" %}
+
+This project is being funded by the [National Science Foundation](https://www.nsf.gov/) under [Grant No. 1833718](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833718). As part of grant expectations, an evaluation of project usefulness and impact will be conducted. **All participants are requested to participate in the project evaluation.**
+
+This includes sharing your name and USF email address with [SmartStart Evaluation and Research](http://smartstart-er.com/), which is conducting the external evaluation of this program. They will contact you to participate in one or more surveys.
+
+Please participate. The information you provide to the external evaluators will not impact your grades at the University of San Francisco in any way. These surveys are to evaluate our program (the course) and not you (the student). Your participation will help us both improve and continue this program.
+
 {% include anchor.html h="h4" text="Communication" %}
 
 All course-related communication will be handled using Piazza—a FERPA-compliant Q&A platform that supports public, anonymous, and private posts. When making posts on Piazza, please keep the following in mind:
