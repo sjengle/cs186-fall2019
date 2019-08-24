@@ -49,7 +49,7 @@ The course instructor and office hours will be as follows:
       <div class="columns is-mobile is-variable is-1">        
         <div class="column is-narrow">
           <div class="image is-64x64">
-            <img class="is-rounded" src="https://scholars.cs.usfca.edu/images/engle.png">
+            <img class="is-rounded" src="{{ "/images/engle.png" | relative_url }}">
           </div>
         </div>
 
@@ -62,7 +62,7 @@ The course instructor and office hours will be as follows:
           <br>
 
           <i class="fa-fw fas fa-clock"></i>
-          <span>2:45pm – 4:15pm</span>
+          <span>2:45pm &ndash; 4:15pm</span>
           <br>
 
           <i class="fa-fw fas fa-map-marker-alt"></i>
@@ -71,6 +71,47 @@ The course instructor and office hours will be as follows:
 
           <i class="fa-fw fas fa-globe "></i>
           <a href="https://sjengle.cs.usfca.edu">sjengle.cs.usfca.edu</a>
+        </div>
+      </div> <!-- end nested columns -->
+    </div>
+  </div>  
+</div>
+
+<article class="message is-info">
+  <div class="message-body">
+    <i class="fas fa-envelope"></i>&nbsp;See the <a href="#communication">Communication Policy</a> for how to contact the instructor and teacher assistants.
+  </div>
+</article>
+
+{% include anchor.html h="h4" text="Teacher Assistant" %}
+
+The teacher assistant and TA office hours will be as follows:
+
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="box">
+      <!-- nested columns for profile photo -->
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-64x64">
+            <img class="is-rounded" src="{{ "/images/hanson.jpg" | relative_url }}">
+          </div>
+        </div>
+
+        <div class="column">
+          <strong>Alex Hanson</strong>
+          <br>
+
+          <i class="fa-fw fas fa-calendar-alt"></i>
+          <span>Wednesdays</span>
+          <br>
+
+          <i class="fa-fw fas fa-clock"></i>
+          <span>4:15pm &ndash; 5:15pm</span>
+          <br>
+
+          <i class="fa-fw fas fa-map-marker-alt"></i>
+          <a href="https://www.usfca.edu/campus-buildings-services/main-campus/harney-science">Harney Science CS Labs (411 and 413)</a>
         </div>
       </div> <!-- end nested columns -->
     </div>
