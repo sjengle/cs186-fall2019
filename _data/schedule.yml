@@ -33,6 +33,9 @@ icons_special:
   travel: &icon_travel
     label: Travel
     class: far fa-plane-departure
+  alumni: &icon_alumni
+    label: Alumni
+    class: far fa-user-graduate
 
 weeks:
 - week: 1
@@ -55,7 +58,27 @@ weeks:
           type: 'has-text-grey'
 
         - bump: true
-          text: Pending
+          text: 'Introduction'
+          link: '/syllabus.html'
+          icon: *icon_website
+
+        - text: 'Binary Representation<br><em>CS Unplugged</em>'
+          link: 'https://www.csunplugged.org/en/topics/binary-numbers/unit-plan/codes-for-letters-using-binary-representation-junior/'
+          icon: *icon_participation
+
+        - text: 'Careers in CS'
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQUalpfpb2hqTwOhpY2G1OXDn06M8tFI0wsJC1RBRJk9ACNzslGA5BTYn_rFfNjbl4Jsau1WWnLtKd8/pub?start=false&loop=false&delayms=3000'
+          icon: *icon_presentation
+          bump: true
+        - text: 'CS Major Overview'
+          link: 'https://drive.google.com/file/d/1lMH7qmDrcfoBHHOER-tzoGoCVEv1V4Fe/view?usp=sharing'
+          icon:
+            class: far fa-file-pdf
+
+        - text: 'Baseline Survey'
+          icon: *icon_survey
+          type: 'has-text-grey'
+          bump: true
 
 - week: 3
   columns:
@@ -79,26 +102,38 @@ weeks:
         - text: 'Photographs Due'
           date: 2019-09-08
           icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6877599'
+
+        - text: 'Questions Due'
+          date: 2019-09-08
+          date: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7829247'
 
     - label: '09/09 Lecture'
       items:
-        - text: 'Linkedin Workshop (Career Services)'
+        - text: 'Linkedin Workshop<br>Juli-Anne Brockway<br><em>Career Services Center</em>'
           icon: *icon_participation
           link: 'https://myusf.usfca.edu/career-services/get-linkedin'
 
-        # - text: 'Github Workshop'
-        #   icon: *icon_participation
+        - text: 'Q&A with Rob Reeves<br/><em>Senior Software Engineer, LinkedIn</em><br/><em>USF MSCS Class of 2018</em>'
+          link: 'https://www.linkedin.com/in/robertpreeves/'
+          icon: *icon_alumni
 
 - week: 5
   columns:
     - label: 'Assignments'
       items:
         - text: 'Accounts Due'
-          date: 2019-09-05
+          date: 2019-09-15
           icon: *icon_survey
 
     - label: '09/16 Lecture'
       items:
+        - text: 'Github Swag (Free)'
+          link: 'https://github.myshopify.com/'
+          icon:
+            class: fab fa-github-alt
+
         - text: 'Github Workshop (Tentative)'
           type: 'has-text-grey'
 
@@ -123,7 +158,7 @@ weeks:
     - label: '10/07 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
+        - text: 'Field Trip (TBA)'
           type: 'has-text-grey'
 
 - week: 9
@@ -154,8 +189,9 @@ weeks:
     - label: '10/28 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
+        - text: 'Presentations (Tentative)'
           type: 'has-text-grey'
+          icon: *icon_presentation
 
     - label: 'Dates and Deadlines'
       items:
@@ -193,14 +229,19 @@ weeks:
     - label: '11/18 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
+        - text: 'Presentations (Tentative)'
           type: 'has-text-grey'
+          icon: *icon_presentation
 
 - week: 15
   columns:
     - label: '11/25 Lecture'
       class: 'is-offset-one-third'
       items:
+        - text: 'Presentations (Tentative)'
+          type: 'has-text-grey'
+          icon: *icon_presentation
+
         - text: 'Pending'
           type: 'has-text-grey'
 
