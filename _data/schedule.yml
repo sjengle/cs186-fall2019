@@ -9,6 +9,9 @@ icons:
   presentation: &icon_presentation
     label: Presentation
     class: far fa-presentation
+  speaker: &icon_speaker
+    label: Guest Speaker
+    class: far fa-podium-star
   participation: &icon_participation
     label: Participation
     class: far fa-users-class
@@ -122,11 +125,11 @@ weeks:
 
     - label: '09/09 Lecture'
       items:
-        - text: 'Linkedin Workshop<br>Juli-Anne Brockway<br><em>Career Services Center</em>'
+        - text: '<strong>Linkedin Workshop</strong><br>Juli-Anne Brockway, <em>Career Services Center</em>'
           icon: *icon_participation
           link: 'https://myusf.usfca.edu/career-services/get-linkedin'
 
-        - text: 'Q&A with Rob Reeves<br/><em>Senior Software Engineer, LinkedIn</em><br/><em>USF MSCS Class of 2018</em>'
+        - text: '<strong>Alumn Speaker</strong><br>Rob Reeves, <em>Senior Software Engineer, LinkedIn, USF MSCS Class of 2018</em>'
           link: 'https://www.linkedin.com/in/robertpreeves/'
           icon: *icon_alumni
 
@@ -140,13 +143,17 @@ weeks:
 
     - label: '09/16 Lecture'
       items:
+        - text: '<strong>Guest Speaker</strong><br>Brian Douglas, <em>Developer Advocate, Github</em>'
+          link: 'https://github.com/bdougie'
+          icon: *icon_speaker
+
         - text: 'Github Swag (Free)'
           link: 'https://github.myshopify.com/'
           icon:
             class: fab fa-github-alt
 
-        - text: 'Github Workshop (Tentative)'
-          type: 'has-text-grey'
+        - text: 'Github Workshop'
+          icon: *icon_participation
 
 - week: 6
   columns:
