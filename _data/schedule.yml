@@ -50,8 +50,18 @@ weeks:
 
 - week: 2
   columns:
+    - label: 'Bonus Content'
+      items:
+        - text: 'Careers in CS'
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQUalpfpb2hqTwOhpY2G1OXDn06M8tFI0wsJC1RBRJk9ACNzslGA5BTYn_rFfNjbl4Jsau1WWnLtKd8/pub?start=false&loop=false&delayms=3000'
+          icon: *icon_presentation
+
+        - text: 'CS Major Overview'
+          link: 'https://drive.google.com/file/d/1lMH7qmDrcfoBHHOER-tzoGoCVEv1V4Fe/view?usp=sharing'
+          icon:
+            class: far fa-file-pdf
+
     - label: '08/26 Lecture'
-      class: 'is-offset-one-third'
       items:
         - icon: *icon_date
           text: 'First Day of Class'
@@ -59,26 +69,27 @@ weeks:
 
         - bump: true
           text: 'Introduction'
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQc4OrOeeaAlRxJILHYcjzvEL1Z-wSrc7jfUcrnmqoPOO9wQYszpIFSNK2nPgmbeCUDOvpg4pQpDd_H/pub?start=false&loop=false&delayms=3000'
+          icon: *icon_presentation
+
+        - text: 'Syllabus'
           link: '/syllabus.html'
           icon: *icon_website
 
-        - text: 'Binary Representation<br><em>CS Unplugged</em>'
+        - text: 'Binary Representation'
           link: 'https://www.csunplugged.org/en/topics/binary-numbers/unit-plan/codes-for-letters-using-binary-representation-junior/'
           icon: *icon_participation
 
-        - text: 'Careers in CS'
-          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQUalpfpb2hqTwOhpY2G1OXDn06M8tFI0wsJC1RBRJk9ACNzslGA5BTYn_rFfNjbl4Jsau1WWnLtKd8/pub?start=false&loop=false&delayms=3000'
-          icon: *icon_presentation
-          bump: true
-        - text: 'CS Major Overview'
-          link: 'https://drive.google.com/file/d/1lMH7qmDrcfoBHHOER-tzoGoCVEv1V4Fe/view?usp=sharing'
-          icon:
-            class: far fa-file-pdf
-
+    - label: 'In-Class Deadlines'
+      items:
         - text: 'Baseline Survey'
           icon: *icon_survey
-          type: 'has-text-grey'
-          bump: true
+          date: 2018-08-26
+
+        - text: 'Piazza Setup'
+          icon: *icon_participation
+          link: 'https://piazza.com/class/jw1afd1q2je3ig?cid=8'
+          date: 2018-08-26
 
 - week: 3
   columns:
@@ -106,7 +117,7 @@ weeks:
 
         - text: 'Questions Due'
           date: 2019-09-08
-          date: *icon_survey
+          icon: *icon_survey
           link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7829247'
 
     - label: '09/09 Lecture'
