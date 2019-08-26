@@ -166,11 +166,14 @@ weeks:
 
 - week: 8
   columns:
-    - label: '10/07 Lecture'
+    - label: '10/07 FIELD TRIP'
       class: 'is-offset-one-third'
       items:
-        - text: 'Field Trip (TBA)'
-          type: 'has-text-grey'
+        - text: 'Autodesk Technology Center'
+          link: 'https://www.autodesk.com/technology-centers/san-francisco'
+          type: 'has-text-weight-bold has-text-link'
+          icon:
+            class: far fa-map-signs
 
 - week: 9
   columns:
@@ -221,7 +224,7 @@ weeks:
     - label: '11/04 FIELD TRIP'
       # class: 'is-offset-one-third'
       items:
-        - text: 'Visit to Lyft'
+        - text: 'Lyft Headquarters'
           type: 'has-text-weight-bold has-text-link'
           icon:
             class: 'fab fa-lyft has-text-weight-normal'
