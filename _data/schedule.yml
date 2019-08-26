@@ -140,6 +140,12 @@ weeks:
         - text: 'Accounts Due'
           date: 2019-09-15
           icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6877931'
+
+        - text: 'Questions Due'
+          date: 2019-09-15
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7829571'
 
     - label: '09/16 Lecture'
       items:
@@ -152,8 +158,9 @@ weeks:
           icon:
             class: fab fa-github-alt
 
-        - text: 'Github Workshop'
+        - text: 'Github Pages'
           icon: *icon_participation
+          link: 'https://pages.github.com/'
 
 - week: 6
   columns:
