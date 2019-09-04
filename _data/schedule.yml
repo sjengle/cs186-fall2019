@@ -204,8 +204,12 @@ weeks:
     - label: '10/21 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'HPS Workshop (Tentative)'
-          type: 'has-text-grey'
+        - icon: *icon_participation
+          text: '<strong>Road to Resilience</strong><br>Natalie Macias, <em>Associate Director, Health Promotion Services</em>'
+
+        - icon:
+            class: 'far fa-user'
+          text: '<strong>Student Speaker</strong><br>Ornelle Fonkoua Mambe, <em>Junior CS Major</em>'
 
         - bump: true
           text: 'Sophie @ IEEEVIS'
