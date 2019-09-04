@@ -221,8 +221,7 @@ weeks:
     - label: '10/28 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Presentations (Tentative)'
-          type: 'has-text-grey'
+        - text: 'Presentations'
           icon: *icon_presentation
 
     - label: 'Dates and Deadlines'
@@ -261,8 +260,7 @@ weeks:
     - label: '11/18 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Presentations (Tentative)'
-          type: 'has-text-grey'
+        - text: 'Presentations'
           icon: *icon_presentation
 
 - week: 15
@@ -270,10 +268,6 @@ weeks:
     - label: '11/25 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Presentations (Tentative)'
-          type: 'has-text-grey'
-          icon: *icon_presentation
-
         - text: 'Pending'
           type: 'has-text-grey'
 
@@ -282,8 +276,8 @@ weeks:
     - label: '12/02 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
-          type: 'has-text-grey'
+        - text: 'Presentations'
+          icon: *icon_presentation
 
     - label: 'Dates and Deadlines'
       items:
