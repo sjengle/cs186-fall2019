@@ -177,6 +177,13 @@ weeks:
         - text: 'Speaking Center Workshop (Tentative)'
           type: 'has-text-grey'
 
+    - label: 'In-Class Deadlines'
+      items:
+        - text: 'Presentation Topic'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6880741'
+          icon: *icon_survey
+          date: 2019-09-23
+
 - week: 7
   columns:
     - label: '09/30 Lecture'
@@ -187,8 +194,8 @@ weeks:
 
     - label: 'In-Class Deadlines'
       items:
-        - text: 'Presentation Topic'
-          link: 'https://usfca.instructure.com/courses/1588460/assignments/6880741'
+        - text: 'Field Trip Form'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6880770'
           icon: *icon_survey
           date: 2019-09-30
 
