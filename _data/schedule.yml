@@ -174,8 +174,12 @@ weeks:
     - label: '09/23 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Speaking Center Workshop (Tentative)'
-          type: 'has-text-grey'
+        - icon: *icon_participation
+          text: '<strong>Visual Aids</strong><br>Ria Angelica Laxa, <em>Public Speaking Coach, Speaking Center</em>'
+
+        - text: 'Google Slides'
+          icon: *icon_participation
+          link: 'https://www.google.com/slides/about/'
 
     - label: 'In-Class Deadlines'
       items:
