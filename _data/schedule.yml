@@ -160,13 +160,18 @@ weeks:
 
         - text: 'Github Pages'
           icon: *icon_participation
-          link: 'https://pages.github.com/'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6881467'
 
     - label: 'In-Class Deadlines'
       items:
         - text: 'Presentation Date'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861120'
           icon: *icon_survey
+          date: 2019-09-16
+
+        - text: 'Github Pages'
+          icon: *icon_participation
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6881467'
           date: 2019-09-16
 
 - week: 6
