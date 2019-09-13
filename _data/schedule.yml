@@ -83,7 +83,7 @@ weeks:
           link: 'https://www.csunplugged.org/en/topics/binary-numbers/unit-plan/codes-for-letters-using-binary-representation-junior/'
           icon: *icon_participation
 
-    - label: 'In-Class Deadlines'
+    - label: 'Post-Lecture Deadlines'
       items:
         - text: 'Baseline Survey'
           icon: *icon_survey
@@ -102,7 +102,7 @@ weeks:
         - icon: *icon_canceled
           text: 'Labor Day (No Class)'
           type: 'has-text-grey'
-    - label: 'Dates and Deadlines'
+    - label: 'Post-Lecture Deadlines'
       items:
         - icon: *icon_date
           date: 2019-09-06
@@ -111,14 +111,14 @@ weeks:
 
 - week: 4
   columns:
-    - label: 'Assignments'
+    - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Photographs Due'
+        - text: 'Profile Photographs'
           date: 2019-09-08
           icon: *icon_survey
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6877599'
 
-        - text: 'Questions Due'
+        - text: 'Speaker Questions'
           date: 2019-09-08
           icon: *icon_survey
           link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7829247'
@@ -135,14 +135,14 @@ weeks:
 
 - week: 5
   columns:
-    - label: 'Assignments'
+    - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Accounts Due'
+        - text: 'Github Accounts'
           date: 2019-09-15
           icon: *icon_survey
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6877931'
 
-        - text: 'Questions Due'
+        - text: 'Speaker Questions'
           date: 2019-09-15
           icon: *icon_survey
           link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7829571'
@@ -162,7 +162,7 @@ weeks:
           icon: *icon_participation
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6881467'
 
-    - label: 'In-Class Deadlines'
+    - label: 'Post-Lecture Deadlines'
       items:
         - text: 'Presentation Date'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861120'
@@ -173,6 +173,12 @@ weeks:
           icon: *icon_participation
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6881467'
           date: 2019-09-16
+
+        - text: 'Speaker Reflection'
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6882453'
+          date: 2019-09-18
+          bump: true
 
 - week: 6
   columns:
@@ -186,7 +192,7 @@ weeks:
           icon: *icon_participation
           link: 'https://www.google.com/slides/about/'
 
-    - label: 'In-Class Deadlines'
+    - label: 'Post-Lecture Deadlines'
       items:
         - text: 'Presentation Topic'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6880741'
@@ -201,7 +207,7 @@ weeks:
         - text: 'Pending'
           type: 'has-text-grey'
 
-    - label: 'In-Class Deadlines'
+    - label: 'Post-Lecture Deadlines'
       items:
         - text: 'Field Trip Form'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6880770'
@@ -210,14 +216,25 @@ weeks:
 
 - week: 8
   columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Autodesk Questions'
+          date: 2019-10-06
+          icon: *icon_survey
+
     - label: '10/07 FIELD TRIP'
-      class: 'is-offset-one-third'
       items:
         - text: 'Autodesk Technology Center'
           link: 'https://www.autodesk.com/technology-centers/san-francisco'
           type: 'has-text-weight-bold has-text-link'
           icon:
             class: far fa-map-signs
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Field Trip Reflection'
+          icon: *icon_survey
+          date: 2019-10-09
 
 - week: 9
   columns:
@@ -246,6 +263,16 @@ weeks:
           type: 'has-text-success'
           icon: *icon_travel
 
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - icon: *icon_survey
+          date: 2019-10-23
+          text: 'Workshop Reflection'
+
+        - icon: *icon_survey
+          date: 2019-10-23
+          text: 'Speaker Reflection'
+
 - week: 11
   columns:
     - label: '10/28 Lecture'
@@ -254,17 +281,23 @@ weeks:
         - text: 'Presentations'
           icon: *icon_presentation
 
-    - label: 'Dates and Deadlines'
+    - label: 'Post-Lecture Deadlines'
       items:
+        - icon: *icon_survey
+          date: 2019-10-28
+          text: 'Presentation Feedback'
+
         - icon: *icon_date
           date: 2019-11-01
+          class: 'has-text-danger'
           text: 'Withdraw Deadline'
+          bump: true
 
 - week: 12
   columns:
-    - label: 'Assignments'
+    - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Lyft Questions Due'
+        - text: 'Lyft Questions'
           date: 2019-11-03
           icon: *icon_survey
 
@@ -276,6 +309,12 @@ weeks:
           icon:
             class: 'fab fa-lyft has-text-weight-normal'
           link: 'https://www.lyft.com/careers'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - icon: *icon_survey
+          date: 2019-10-26
+          text: 'Field Trip Reflection'
 
 - week: 13
   columns:
@@ -309,25 +348,25 @@ weeks:
         - text: 'Presentations'
           icon: *icon_presentation
 
-    - label: 'Dates and Deadlines'
+    - label: 'Post-Lecture Deadlines'
       items:
         - icon: *icon_participation
           date: 2019-12-04
-          text: 'On-Campus Event (CS) Due'
+          text: 'On-Campus Event (CS)'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861079'
         - icon: *icon_participation
           date: 2019-12-04
-          text: 'On-Campus Event (Any) Due'
+          text: 'On-Campus Event (Any)'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861082'
 
         - icon: *icon_participation
           date: 2019-12-04
-          text: 'Off-Campus Event Due'
+          text: 'Off-Campus Event'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861083'
 
         - icon: *icon_participation
           date: 2019-12-04
-          text: 'Extra Credit Event Due'
+          text: 'Extra Credit Event'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861086'
 
         - bump: true
