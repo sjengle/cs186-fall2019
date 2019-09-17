@@ -190,7 +190,7 @@ weeks:
 
         - text: 'Google Slides'
           icon: *icon_participation
-          link: 'https://www.google.com/slides/about/'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883071'
 
     - label: 'Post-Lecture Deadlines'
       items:
@@ -199,13 +199,50 @@ weeks:
           icon: *icon_survey
           date: 2019-09-23
 
+        - text: 'Google Slides'
+          icon: *icon_participation
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883071'
+          date: 2019-09-23
+
 - week: 7
   columns:
-    - label: '09/30 Lecture'
-      class: 'is-offset-one-third'
+    - label: 'Pre-Lecture Deadlines'
       items:
+        - text: 'Session 1 Questions'
+          date: 2019-09-29
+          icon: *icon_survey
+
+        - text: 'Session 2 Questions'
+          date: 2019-09-29
+          icon: *icon_survey
+
+    - label: '09/30 Lecture'
+      items:
+        - text: '<strong>Alumni Panel Session 1</strong>'
+          icon: *icon_alumni
+
+        - text: 'Timothy Castillo, <em>Software Engineer, Roche, USF BSCS Class of 2016</em>'
+          link: 'https://www.linkedin.com/in/tacastillo/'
+          icon:
+            class : ''
+
+        - text: 'Erika Dains, <em>Junior Full Stack Engineer, Analytics at Unity Technologies, USF BSCS Class of 2015</em>'
+          link: 'https://www.linkedin.com/in/erikadains/'
+          icon:
+            class : ''
+
+        - text: '<strong>Alumni Panel Session 2</strong>'
+          icon: *icon_alumni
+          bump: true
+
+        - text: 'Helen Chen, <em>Senior Software Engineer, Okta, USF BSCS Class of 2017</em>'
+          link: 'https://www.linkedin.com/in/helenhchen/'
+          icon:
+            class : ''
+
         - text: 'Pending'
-          type: 'has-text-grey'
+          icon:
+            class : ''
 
     - label: 'Post-Lecture Deadlines'
       items:
@@ -213,6 +250,15 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6880770'
           icon: *icon_survey
           date: 2019-09-30
+
+        - text: 'Session 1 Reflection'
+          date: 2019-10-02
+          icon: *icon_survey
+          bump: true
+
+        - text: 'Session 2 Reflection'
+          date: 2019-10-02
+          icon: *icon_survey
 
 - week: 8
   columns:
@@ -280,12 +326,14 @@ weeks:
       items:
         - text: 'Presentations'
           icon: *icon_presentation
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861122'
 
     - label: 'Post-Lecture Deadlines'
       items:
         - icon: *icon_survey
           date: 2019-10-28
           text: 'Presentation Feedback'
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics'
 
         - icon: *icon_date
           date: 2019-11-01
@@ -331,14 +379,17 @@ weeks:
       items:
         - text: 'Presentations'
           icon: *icon_presentation
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861122'
 
 - week: 15
   columns:
     - label: '11/25 Lecture'
       class: 'is-offset-one-third'
       items:
-        - text: 'Pending'
-          type: 'has-text-grey'
+        - icon: *icon_survey
+          date: 2019-11-18
+          text: 'Presentation Feedback'
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics'
 
 - week: 16
   columns:
@@ -347,13 +398,21 @@ weeks:
       items:
         - text: 'Presentations'
           icon: *icon_presentation
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861122'
 
     - label: 'Post-Lecture Deadlines'
       items:
+        - icon: *icon_survey
+          date: 2019-12-02
+          text: 'Presentation Feedback'
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics'
+
         - icon: *icon_participation
           date: 2019-12-04
           text: 'On-Campus Event (CS)'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861079'
+          bump: true
+
         - icon: *icon_participation
           date: 2019-12-04
           text: 'On-Campus Event (Any)'
