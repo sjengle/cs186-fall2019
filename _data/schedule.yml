@@ -208,13 +208,20 @@ weeks:
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Session 1 Questions'
+        - text: 'Speaker Questions: Timothy'
           date: 2019-09-29
           icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834670'
 
-        - text: 'Session 2 Questions'
+        - text: 'Speaker Questions: Erika'
           date: 2019-09-29
           icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834673'
+
+        - text: 'Speaker Questions: Helen'
+          date: 2019-09-29
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834674'
 
     - label: '09/30 Lecture'
       items:
@@ -251,14 +258,22 @@ weeks:
           icon: *icon_survey
           date: 2019-09-30
 
-        - text: 'Session 1 Reflection'
+        - text: 'Speaker Reflection: Timothy'
           date: 2019-10-02
           icon: *icon_survey
           bump: true
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883464'
 
-        - text: 'Session 2 Reflection'
+        - text: 'Speaker Reflection: Erika'
           date: 2019-10-02
           icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883467'
+
+        - text: 'Speaker Reflection: Helen'
+          date: 2019-10-02
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883468'
+
 
 - week: 8
   columns:
@@ -267,6 +282,7 @@ weeks:
         - text: 'Autodesk Questions'
           date: 2019-10-06
           icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834692'
 
     - label: '10/07 FIELD TRIP'
       items:
@@ -281,6 +297,7 @@ weeks:
         - text: 'Field Trip Reflection'
           icon: *icon_survey
           date: 2019-10-09
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883476'
 
 - week: 9
   columns:
@@ -348,6 +365,7 @@ weeks:
         - text: 'Lyft Questions'
           date: 2019-11-03
           icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834696'
 
     - label: '11/04 FIELD TRIP'
       # class: 'is-offset-one-third'
@@ -361,16 +379,24 @@ weeks:
     - label: 'Post-Lecture Deadlines'
       items:
         - icon: *icon_survey
-          date: 2019-10-26
+          date: 2019-11-06
           text: 'Field Trip Reflection'
-
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883479'
 - week: 13
   columns:
-    - label: '11/11 Lecture'
-      class: 'is-offset-one-third'
+    - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Guest Speaker'
+        - text: 'Speaker Questions'
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
+          icon: *icon_survey
+          date: 2019-11-10
+          
+    - label: '11/11 Lecture'
+      items:
+        - text: '<strong>Guest Speaker</strong><br>Jaren Glover, <em>Infrastructure Ghostwriter, Robinhood</em>'
           type: 'has-text-grey'
+          icon: *icon_speaker
+          link: 'https://www.jarenglover.com/'
 
 - week: 14
   columns:
@@ -381,15 +407,20 @@ weeks:
           icon: *icon_presentation
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6861122'
 
-- week: 15
-  columns:
-    - label: '11/25 Lecture'
-      class: 'is-offset-one-third'
+    - label: 'Post-Lecture Deadlines'
       items:
         - icon: *icon_survey
           date: 2019-11-18
           text: 'Presentation Feedback'
           link: 'https://usfca.instructure.com/courses/1588460/discussion_topics'
+
+- week: 15
+  columns:
+    - label: '11/25 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'Pending'
+          type: 'has-text-grey'
 
 - week: 16
   columns:
