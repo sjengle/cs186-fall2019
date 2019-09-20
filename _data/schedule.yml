@@ -390,13 +390,20 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
           icon: *icon_survey
           date: 2019-11-10
-          
+
     - label: '11/11 Lecture'
       items:
         - text: '<strong>Guest Speaker</strong><br>Jaren Glover, <em>Infrastructure Ghostwriter, Robinhood</em>'
           type: 'has-text-grey'
           icon: *icon_speaker
           link: 'https://www.jarenglover.com/'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Speaker Reflection'
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6883497'
+          date: 2019-11-13
 
 - week: 14
   columns:
