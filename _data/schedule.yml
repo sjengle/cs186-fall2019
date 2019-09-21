@@ -338,8 +338,14 @@ weeks:
 
 - week: 11
   columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Presentation Materials'
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
+          icon: *icon_survey
+          date: 2019-10-28
+
     - label: '10/28 Lecture'
-      class: 'is-offset-one-third'
       items:
         - text: 'Presentations'
           icon: *icon_presentation
@@ -407,8 +413,14 @@ weeks:
 
 - week: 14
   columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Presentation Materials'
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
+          icon: *icon_survey
+          date: 2019-11-18
+
     - label: '11/18 Lecture'
-      class: 'is-offset-one-third'
       items:
         - text: 'Presentations'
           icon: *icon_presentation
@@ -431,8 +443,14 @@ weeks:
 
 - week: 16
   columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Presentation Materials'
+          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
+          icon: *icon_survey
+          date: 2019-12-02
+
     - label: '12/02 Lecture'
-      class: 'is-offset-one-third'
       items:
         - text: 'Presentations'
           icon: *icon_presentation
