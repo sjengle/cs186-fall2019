@@ -341,7 +341,7 @@ weeks:
     - label: 'Pre-Lecture Deadlines'
       items:
         - text: 'Presentation Materials'
-          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861121'
           icon: *icon_survey
           date: 2019-10-28
 
@@ -416,7 +416,7 @@ weeks:
     - label: 'Pre-Lecture Deadlines'
       items:
         - text: 'Presentation Materials'
-          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861121'
           icon: *icon_survey
           date: 2019-11-18
 
@@ -446,7 +446,7 @@ weeks:
     - label: 'Pre-Lecture Deadlines'
       items:
         - text: 'Presentation Materials'
-          link: 'https://usfca.instructure.com/courses/1588460/discussion_topics/7834502'
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6861121'
           icon: *icon_survey
           date: 2019-12-02
 
