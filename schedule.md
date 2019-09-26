@@ -29,6 +29,10 @@ ul.icons > li > i {
 strong {
   color: inherit;
 }
+
+[class^=has-text] a {
+  color: inherit;
+}
 </style>
 
 The following is the current weekly schedule. This schedule is subject to change and will be frequently updated throughout the semester. The latest deadlines may also be found on [Canvas]({{ site.canvas }}).
