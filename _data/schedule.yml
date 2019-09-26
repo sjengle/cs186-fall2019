@@ -293,7 +293,7 @@ weeks:
             class: far fa-map-signs
 
         - text: 'Transportation Guide'
-          link: '/transportation.html'
+          link: 'transportation.html'
           icon:
             class: 'far fa-bus-alt'
 
