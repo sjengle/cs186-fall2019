@@ -21,7 +21,7 @@ I **strongly** encourage you to form travel groups of 2 to 4 students. Your grou
 
 <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d631.3600192136804!2d-122.39810061950479!3d37.799809613239255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085805e5f1a5139%3A0x4b4f678ce059c178!2sAutodesk%20Technology%20Center!5e0!3m2!1sen!2sus!4v1569524016020!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0; height: 450px;" allowfullscreen=""></iframe></p>
 
-We will meet between **4:45pm and 5:00pm** in front of [Pier 9](https://goo.gl/maps/wqvHYxgA9iTirKtp9) in San Francisco. (This is nearby the Exploratorium.) We will begin the tour PROMPTLY at 5:00pm.
+We will meet between **4:30pm and 4:45pm** in front of [Pier 9](https://goo.gl/maps/wqvHYxgA9iTirKtp9) in San Francisco. (This is nearby the Exploratorium.) We will begin the tour PROMPTLY at 4:45pm.
 
 ## Muni Lines
 
