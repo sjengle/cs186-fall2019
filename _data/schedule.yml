@@ -288,9 +288,14 @@ weeks:
       items:
         - text: 'Autodesk Technology Center'
           link: 'https://www.autodesk.com/technology-centers/san-francisco'
-          type: 'has-text-weight-bold has-text-link'
+          type: 'has-text-weight-bold has-text-danger'
           icon:
             class: far fa-map-signs
+
+        - text: 'Transportation Guide'
+          link: '/transportation.html'
+          icon:
+            class: 'far fa-bus-alt'
 
     - label: 'Post-Lecture Deadlines'
       items:
@@ -377,7 +382,7 @@ weeks:
       # class: 'is-offset-one-third'
       items:
         - text: 'Lyft Headquarters'
-          type: 'has-text-weight-bold has-text-link'
+          type: 'has-text-weight-bold has-text-danger'
           icon:
             class: 'fab fa-lyft has-text-weight-normal'
           link: 'https://www.lyft.com/careers'
