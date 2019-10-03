@@ -11,6 +11,10 @@ This page will discuss transportation for our first field trip on **October 7, 2
   <p>If you are unable to get an excused absence and must arrive at the field trip late, please reach out to the instructor on Piazza to make arrangements.</p>
 </div>
 
+<div class="notification is-usf-green">
+  <p>You must wear <strong>closed-toe shoes</strong> to enter the manufacturing area&mdash;no exceptions! This means no flip-flops, sandals, clogs, etc.</p>
+</div>
+
 ## Travel Groups
 
 I **strongly** encourage you to form travel groups of 2 to 4 students. Your group should decide when and where to meet, and which Muni line to take downtown.
