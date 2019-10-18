@@ -343,6 +343,11 @@ weeks:
           text: 'Speaker Reflection'
           link: 'https://usfca.instructure.com/courses/1588460/assignments/6886776'
 
+        - icon: *icon_survey
+          date: 2019-10-23
+          text: 'Field Trip Prep'
+          link: 'https://usfca.instructure.com/courses/1588460/quizzes/2342975'
+
 - week: 11
   columns:
     - label: 'Pre-Lecture Deadlines'
