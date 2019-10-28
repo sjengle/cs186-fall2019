@@ -393,6 +393,10 @@ weeks:
           icon:
             class: 'fab fa-lyft has-text-weight-normal'
           link: 'https://www.lyft.com/careers'
+        - text: 'Field Trip Details'
+          link: 'https://piazza.com/class/jw1afd1q2je3ig?cid=39'
+          icon:
+            class: 'fab fa-lyft'
 
     - label: 'Post-Lecture Deadlines'
       items:
