@@ -247,10 +247,6 @@ weeks:
           icon:
             class : ''
 
-        - text: 'Pending'
-          icon:
-            class : ''
-
     - label: 'Post-Lecture Deadlines'
       items:
         - text: 'Field Trip Form'
@@ -416,7 +412,6 @@ weeks:
     - label: '11/11 Lecture'
       items:
         - text: '<strong>Guest Speaker</strong><br>Jaren Glover, <em>Infrastructure Ghostwriter, Robinhood</em>'
-          type: 'has-text-grey'
           icon: *icon_speaker
           link: 'https://www.jarenglover.com/'
 
@@ -451,11 +446,78 @@ weeks:
 
 - week: 15
   columns:
-    - label: '11/25 Lecture'
-      class: 'is-offset-one-third'
+    - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
-          type: 'has-text-grey'
+        - text: 'Speaker Questions: David'
+          date: 2019-11-24
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890668'
+
+        - text: 'Speaker Questions: Aliaksandr'
+          date: 2019-11-24
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890669'
+
+        - text: 'Speaker Questions: Steely'
+          date: 2019-11-24
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890671'
+
+        - text: 'Speaker Questions: Kevin'
+          date: 2019-11-24
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890673'
+
+    - label: '11/25 Lecture'
+      items:
+        - text: '<strong>Alumni Panel Session 1</strong>'
+          icon: *icon_alumni
+
+        - text: 'David Katz, <em>Software Engineer, Zendesk, USF BSCS Class of 2018</em>'
+          link: 'https://www.linkedin.com/in/david-katz-sf/'
+          icon:
+            class : ''
+
+        - text: 'Aliaksandr Papko, <em>Lead Software Engineer, Salesforce, USF BSCS Class of 2012</em>'
+          link: 'https://www.linkedin.com/in/apapko/'
+          icon:
+            class : ''
+
+        - text: '<strong>Alumni Panel Session 2</strong>'
+          icon: *icon_alumni
+          bump: true
+
+        - text: 'Steely Morneau, <em>Software Engineer, Nextdoor, USF BSCS Class of 2013, USF MSCS Class of 2014</em>'
+          link: 'https://www.linkedin.com/in/morneau/'
+          icon:
+            class : ''
+
+        - text: 'Kevin Moran, <em>Software Developer Manager, Amazon, USF BSCS Class of 2010, USF MSCS Class of 2012</em>'
+          link: 'https://www.linkedin.com/in/kevin-moran-32028a26/'
+          icon:
+            class : ''
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Speaker Reflection: David'
+          date: 2019-11-27
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890675'
+
+        - text: 'Speaker Reflection: Aliaksandr'
+          date: 2019-11-27
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890676'
+
+        - text: 'Speaker Reflection: Steely'
+          date: 2019-11-27
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890677'
+
+        - text: 'Speaker Reflection: Kevin'
+          date: 2019-11-27
+          icon: *icon_survey
+          link: 'https://usfca.instructure.com/courses/1588460/assignments/6890678'
 
 - week: 16
   columns:
