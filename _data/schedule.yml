@@ -411,9 +411,14 @@ weeks:
 
     - label: '11/11 Lecture'
       items:
+        - text: 'CS Major Advising'
+          icon: *icon_website
+          link: 'https://usfca.instructure.com/courses/1588460/pages/cs-major-resources'
+
         - text: '<strong>Guest Speaker</strong><br>Jaren Glover, <em>Infrastructure Ghostwriter, Robinhood</em>'
           icon: *icon_speaker
           link: 'https://www.jarenglover.com/'
+          bump: true
 
     - label: 'Post-Lecture Deadlines'
       items:
